@@ -1,5 +1,5 @@
 
-function App(){
+function Titulo(){
     const nombre = 'Jonathan';
       if(nombre){
         return <h1>Hola {nombre}</h1>
