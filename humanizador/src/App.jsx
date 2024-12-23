@@ -1,7 +1,12 @@
 
-function App(){
+import Titulo from './Titulo';
 
-  return <p>Hola Mundo</p>
+function App(){
+  var nombre = 'Mundo';
+    if(nombre){
+      return <p>Hola {nombre}</p>
+    }
+  return <p>Hola {Desconocido}</p>
 }
 
-export default App;
+export default App; 
